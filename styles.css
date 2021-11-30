@@ -1,0 +1,92 @@
+nav {
+  margin-left: -8px;
+  width: 240px;
+  height: 45px;
+  font-size: 15px;
+  
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12px;
+    margin-left: 40px;
+    margin-top: 130px;
+    font-weight: normal;
+}
+  
+
+h2 {
+       font-size: 12px;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       margin-left: 40px;
+       margin-top: 75px;
+       font-weight: lighter;
+       
+
+   }
+
+ul {
+    padding: 2px;
+    width: 100%;
+    border: groove;
+    max-width: 470px;
+    background-color: lightsteelblue;
+    margin-left: 50px;
+  }
+  
+  li {
+    display: inline;
+    margin-left: 60px;
+  }
+
+ 
+  .grid-container {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    align-content: center;
+
+    
+  }
+
+
+.grid-item h1{
+    /* grid-column-start: auto; */
+    background: lightgray;
+    border: solid 1px;
+    border-style: solid;
+    width: 240px;
+    height: 160px;
+    border-radius: 5px;
+    
+    
+    
+
+    }
+
+.grid-item h2 {
+    grid-column-start: auto;
+    background: lightgray;
+    border: solid 1px;
+    border-style: solid;
+    width: 240px;
+    height: 160px;
+    border-radius: 5px;
+    
+    
+    
+    }
+
+body {
+        background-image: url('Stones.jpg');
+        margin: -7px;
+        
+      }
+      
+      
+@media (min-width: 1025px) {
+      .text {
+          font-size: 32px;
+        }
+      }
+
+   
